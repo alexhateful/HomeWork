@@ -1,27 +1,35 @@
-body{
+body {
     background: black
 }
-h1{
+
+h1 {
     color: white
 }
-.red{
+
+.red {
     color: red
 }
-.orange{
+
+.orange {
     color: orange
 }
-.yeloy{
-   color:  yellow
+
+.yeloy {
+    color: yellow
 }
-.green{
+
+.green {
     color: green
 }
+
 .aqua {
     color: aqua
 }
-.blye{
+
+.blye {
     color: blue
 }
-.violet{
+
+.violet {
     color: violet
 }

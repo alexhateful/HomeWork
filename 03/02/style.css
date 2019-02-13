@@ -1,0 +1,78 @@
+body {
+    background-color: #990909
+}
+
+.leftblokh {
+    background-color: #7D0909;
+    width: 14%;
+    height: 360px;
+    float: left;
+    margin-top: 2px;
+    padding: 4px;
+}
+
+.centralblokh {
+    color: white;
+    text-align: justify;
+    width: 70%;
+    float: left;
+    padding-left: 4px;
+}
+
+.rightblokh {
+    width: 14%;
+    height: 360px;
+    background-color: #E3DDDD;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 4px;
+}
+
+.logo {
+    text-align: center
+}
+
+.table1 {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    vertical-align: middle;
+}
+
+.whitetext {
+    color: white;
+    text-decoration: none;
+}
+
+.table2 {
+
+    width: 100%;
+    height: 880px;
+}
+
+.orangecolor {
+    color: #D44D0E;
+
+}
+
+.h3 {
+    background-color: #BDBDBD;
+    text-align: center;
+    margin: 4px;
+}
+
+hr {
+    width: 120px;
+}
+.Copyright {
+    text-align: center;
+    color: white;
+    background-color: #E95B11;
+    float: left;
+    width: 100%
+}
+.img {
+    width: 60%;
+}
