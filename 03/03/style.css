@@ -1,0 +1,40 @@
+.table1 {
+    width: 100%;
+    height: 50px;
+}
+.table1td1 {
+    width: 10%;
+}
+
+
+.table1td2 {
+   
+    text-align: center;
+}
+
+.table2 {
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+}
+
+.table2p {
+    text-decoration: none;
+    color: #131313;
+}
+
+span {
+    font-size: 25px;
+}
+img {
+    max-width: 100%;
+}
+.table3 {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+.table3text {
+    text-align: left;
+    color:#BBBBBB;
+}
