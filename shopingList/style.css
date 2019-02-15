@@ -21,10 +21,6 @@ body {
 small {
     color: #A49FB4;
 }
-li:hover {
-    background-color: black;
-    color: white;
-}
 
 input:checked+label {
     text-decoration: line-through;
@@ -42,6 +38,10 @@ li:nth-child(odd) {
 }
 li {
     list-style-type: none;
+}
+li:hover {
+    background-color: black;
+    color: white;
 }
 
 .mainform {
