@@ -18,17 +18,15 @@ ul {
 body {
     background-color: #3B3F45;
 }
+
 small {
     color: #A49FB4;
 }
-li:hover {
-    background-color: black;
-    color: white;
-}
+
 
 input:checked+label {
     text-decoration: line-through;
-    color: #A49FB4;  
+    color: #A49FB4;
 }
 
 
@@ -40,6 +38,12 @@ li:nth-child(even) {
 li:nth-child(odd) {
     background-color: #88839E;
 }
+
+li:hover {
+    background-color: #007ACC;
+    color: white;
+}
+
 li {
     list-style-type: none;
 }
@@ -48,6 +52,8 @@ li {
     margin: 10px 15%;
     width: 70%;
 }
+
+
 
 .footer {
     font-size: 1.17em;
