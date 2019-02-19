@@ -6,89 +6,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Huge-search</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/grid.css">
     <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
 <body class="BG-color">
-    <div class="search">
-        <input type="search" name="Serch" id="1" placeholder="Serch..." class="BG-color">
-        <button type="button" for="1"><img src="./img/magnifier.svg" alt="Найти" class="BG-color"></button>
-    </div>
-    <div class="col col-4 row">
-        <h2>PEOPLE</h2>
-        <a href="https://twitter.com/SaraSoueidan" class=" a1"><img src="./img/avatars/SaraSoueidan.jpeg" alt="SaraSoueidan"
-                class="avatar">
-            <p class="p2">Sara Soueidan</p>
-        </a>
-        <a href="https://twitter.com/rachsmithtweets" class=" a1"><img src="./img/avatars/RachelSmith.png" alt="RachelSmith"
-                class="avatar">
-            <p class="p2">Smith</p>
-        </a>
-        <a href="https://twitter.com/shaund0na" class=" a1"><img src="./img/avatars/ShaunDona.jpeg" alt="ShaunDona"
-                class="avatar">
-            <p class="p2">Shaun Dona</p>
-        </a>
-        <a href="https://twitter.com/twholman" class=" a1"><img src="./img/avatars/TimHolman.jpeg" alt="TimHolman"
-                class="avatar">
-            <p class="p2">Tim Holman</p>
-        </a>
-        <a href="https://twitter.com/pcridesagain" class=" a1"><img src="./img/avatars/PatrickCox.png" alt="PatrickCox"
-                class="avatar">
-            <p class="p2">Patrick Cox</p>
-        </a>
-        <a href="https://twitter.com/peterfinlan" class=" a1"><img src="./img/avatars/PeterFinlan.jpeg" alt="PeterFinlan"
-                class="avatar">
-            <p class="p2">Peter Finlan</p>
-        </a>
-    </div>
-    <div class="col col-4">
-        <h2>POPULAR</p>
-
-
-            <a href="https://tympanus.net/codrops/2014/08/05/page-preloading-effect/"><img src="./img/thumbs/PagePreloadingEffect.png" alt="PagePreloadingEffect" class="notAvatar">
-                <p class="p2">Page Preloading Effect</p>
-            </a>
-            <a href="https://tympanus.net/codrops/2014/05/28/arrow-navigation-styles/"><img src="./img/thumbs/ArrowNavigationStyles.png" alt="ArrowNavigationStyles" class="notAvatar">
-                <p class="p2">Arrow Navigation styles</p>
-            </a>
-            <a href="https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/"><img src="./img/thumbs/HoverEffectsIdeasNew.png" alt="HoverEffectsIdeasNew" class="notAvatar">
-                <p class="p2">Ideas for Subtie Hover Effects</p>
-            </a>
-            <a href="https://tympanus.net/codrops/2014/07/14/freebie-halcyon-days-one-page-website-template/"><img src="./img/thumbs/FreebieHalcyonDays.png" alt="FreebieHalcyonDays" class="notAvatar">
-                <p>Halcyon Days Tamplate</p class="p2">
-            </a>
-            <a href="https://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/"><img src="./img/thumbs/ArticleIntroEffects.png" alt="InspirationForArticleIntroEffects" class="notAvatar">
-                <p class="p2">Inspiration for Article Intro Effects</p>
-            </a>
-            <a href="https://tympanus.net/codrops/2014/06/26/draggable-dual-view-slideshow/"><img src="./img/thumbs/DraggableDualViewSlideshow.png" alt="DraggableDualViewSlideshow" class="notAvatar">
-                <p class="p2">Draggable Dual-Viev Slideshow</p>
-            </a>
-
-    </div>
-    <div class="col col-4">
-        <h2>RECENT</h2>
-
-        <a href="https://tympanus.net/codrops/2014/10/07/tooltip-styles-inspiration/" class="a1"><img src="./img/thumbs/TooltipStylesInspiration.png" alt="TooltipStylesInspiration" class="notAvatar">
-            <p class="p2">Tooltip Styles Inspiration</p>
-        </a>
-        <a href="https://tympanus.net/codrops/2014/09/23/animated-backgba-circle-headers/" class="a1"><img src="./img/thumbs/AnimatedHeaderBackgrounds.png" alt="AnimatedHeaderBackgrounds" class="notAvatar">
-            <p class="p2">Animated Backgraund Headers</p>
-        </a>
-        <a href="https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/" class="a1"><img src="./img/thumbs/OffCanvas.png" alt="OffCanvas" class="notAvatar">
-            <p class="p2">Off-Canvas Menu Effects</p>
-        </a>
-        <a href="https://tympanus.net/codrops/2014/09/02/tab-styles-inspiration/" class="a1"><img src="./img/thumbs/TabStyles.png" alt="TabStyles" class="notAvatar">
-            <p class="p2">Tab Styles Inspiration</p>
-        </a>
-        <a href="https://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/" class="a1"><img src="./img/thumbs/ResponsiveSVGs.png" alt="ResponsiveSVGs" class="notAvatar">
-            <p class="p2">Make SVGs Responsive with CSS</p>
-        </a>
-        <a href="https://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/" class="a1"><img src="./img/thumbs/NotificationStyles.png" alt="NotificationStyles" class="notAvatar">
-            <p class="p2">Notification Styles Inspiration</p>
-        </a>
-
+    <div class="container">
+        <div class="search">
+            <form action="#" method="get">
+                <input type="search" name="Serch" id="1" placeholder="Serch..." class="BG-color">
+                <button type="submit" for="1"><img src="./img/magnifier.svg" alt="Найти" class="BG-color"></button>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col col-4">
+                <h2>PEOPLE</h2>
+                <a href="https://twitter.com/SaraSoueidan" class=" a1"><img src="./img/avatars/SaraSoueidan.jpeg" alt="SaraSoueidan"
+                        class="avatar">
+                    <p class="p2">Sara Soueidan</p>
+                </a>
+                <a href="https://twitter.com/rachsmithtweets" class=" a1"><img src="./img/avatars/RachelSmith.png" alt="RachelSmith"
+                        class="avatar">
+                    <p class="p2">Smith</p>
+                </a>
+                <a href="https://twitter.com/shaund0na" class=" a1"><img src="./img/avatars/ShaunDona.jpeg" alt="ShaunDona"
+                        class="avatar">
+                    <p class="p2">Shaun Dona</p>
+                </a>
+                <a href="https://twitter.com/twholman" class=" a1"><img src="./img/avatars/TimHolman.jpeg" alt="TimHolman"
+                        class="avatar">
+                    <p class="p2">Tim Holman</p>
+                </a>
+                <a href="https://twitter.com/pcridesagain" class=" a1"><img src="./img/avatars/PatrickCox.png" alt="PatrickCox"
+                        class="avatar">
+                    <p class="p2">Patrick Cox</p>
+                </a>
+                <a href="https://twitter.com/peterfinlan" class=" a1"><img src="./img/avatars/PeterFinlan.jpeg" alt="PeterFinlan"
+                        class="avatar">
+                    <p class="p2">Peter Finlan</p>
+                </a>
+            </div>
+            <div class="col col-4">
+                <h2>POPULAR</p>
+        
+        
+                    <a href="https://tympanus.net/codrops/2014/08/05/page-preloading-effect/"><img src="./img/thumbs/PagePreloadingEffect.png" alt="PagePreloadingEffect" class="notAvatar">
+                        <p class="p2">Page Preloading Effect</p>
+                    </a>
+                    <a href="https://tympanus.net/codrops/2014/05/28/arrow-navigation-styles/"><img src="./img/thumbs/ArrowNavigationStyles.png" alt="ArrowNavigationStyles" class="notAvatar">
+                        <p class="p2">Arrow Navigation styles</p>
+                    </a>
+                    <a href="https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/"><img src="./img/thumbs/HoverEffectsIdeasNew.png" alt="HoverEffectsIdeasNew" class="notAvatar">
+                        <p class="p2">Ideas for Subtie Hover Effects</p>
+                    </a>
+                    <a href="https://tympanus.net/codrops/2014/07/14/freebie-halcyon-days-one-page-website-template/"><img src="./img/thumbs/FreebieHalcyonDays.png" alt="FreebieHalcyonDays" class="notAvatar">
+                        <p class="p2">Halcyon Days Tamplate</p>
+                    </a>
+                    <a href="https://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/"><img src="./img/thumbs/ArticleIntroEffects.png" alt="InspirationForArticleIntroEffects" class="notAvatar">
+                        <p class="p2">Inspiration for Article Intro Effects</p>
+                    </a>
+                    <a href="https://tympanus.net/codrops/2014/06/26/draggable-dual-view-slideshow/"><img src="./img/thumbs/DraggableDualViewSlideshow.png" alt="DraggableDualViewSlideshow" class="notAvatar">
+                        <p class="p2">Draggable Dual-Viev Slideshow</p>
+                    </a>
+        
+            </div>
+            <div class="col col-4">
+                <h2>RECENT</h2>
+        
+                <a href="https://tympanus.net/codrops/2014/10/07/tooltip-styles-inspiration/" class="a1"><img src="./img/thumbs/TooltipStylesInspiration.png" alt="TooltipStylesInspiration" class="notAvatar">
+                    <p class="p2">Tooltip Styles Inspiration</p>
+                </a>
+                <a href="https://tympanus.net/codrops/2014/09/23/animated-backgba-circle-headers/" class="a1"><img src="./img/thumbs/AnimatedHeaderBackgrounds.png" alt="AnimatedHeaderBackgrounds" class="notAvatar">
+                    <p class="p2">Animated Backgraund Headers</p>
+                </a>
+                <a href="https://tympanus.net/codrops/2014/09/16/off-canvas-menu-effects/" class="a1"><img src="./img/thumbs/OffCanvas.png" alt="OffCanvas" class="notAvatar">
+                    <p class="p2">Off-Canvas Menu Effects</p>
+                </a>
+                <a href="https://tympanus.net/codrops/2014/09/02/tab-styles-inspiration/" class="a1"><img src="./img/thumbs/TabStyles.png" alt="TabStyles" class="notAvatar">
+                    <p class="p2">Tab Styles Inspiration</p>
+                </a>
+                <a href="https://tympanus.net/codrops/2014/08/19/making-svgs-responsive-with-css/" class="a1"><img src="./img/thumbs/ResponsiveSVGs.png" alt="ResponsiveSVGs" class="notAvatar">
+                    <p class="p2">Make SVGs Responsive with CSS</p>
+                </a>
+                <a href="https://tympanus.net/codrops/2014/07/23/notification-styles-inspiration/" class="a1"><img src="./img/thumbs/NotificationStyles.png" alt="NotificationStyles" class="notAvatar">
+                    <p class="p2">Notification Styles Inspiration</p>
+                </a>
+        
+            </div>
+        </div>
     </div>
 
 
