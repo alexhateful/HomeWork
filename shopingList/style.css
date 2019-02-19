@@ -22,10 +22,6 @@ body {
 small {
     color: #A49FB4;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> ca96131d2d8bf48e841c4cc9e55d6957d3767428
 
 input:checked+label {
     text-decoration: line-through;
