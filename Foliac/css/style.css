@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/Foliac.jpg);
+
+}
+
+.headder {
+    height: 652px;
+}
+
+.logo {
+    margin-top: 28px;
+    margin-left: 15px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin-top: 68px;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+li {
+
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Big John';
+    color: white;
+    font-weight: 400;
+    padding-top: 107px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 15px;
+    padding-right: 39px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Slim Joe';
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.button {
+    width: 138px;
+    height: 39px;
+    margin-top: 22px;
+    padding-top: 5px;
+    text-align: center;
+    border: 2px solid #48bf72;
+    border-radius: 3px;
+    color: #48bf72;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.but {
+    width: 140px;
+    margin: 0 auto;
+
+}
+
+.row_buttons {
+    width: 760px;
+    margin: 0 auto;
+    padding-left: 41px;
+}
+
+.row_buttons a {
+    margin-top: 41px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 32px;
+    color: #3c4955;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #eaeaea;
+    border-radius: 2px;    
+    text-decoration: none;
+    display: inline-block;
+}
+.content {
+    width: 1140px;
+    margin: 0 auto;
+
+    display:block;
+
+}
+.conImg {
+    display: inline-block;
+}
