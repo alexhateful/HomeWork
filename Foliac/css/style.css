@@ -10,21 +10,24 @@ body {
 .logo {
     padding-top: 36px;
     padding-left: 15px;
-   
+
 }
+
 .logo .imglogo {
     float: left;
     width: 174px;
-    display:block;
+    display: block;
 }
+
 .nav {
     margin-top: 41px;
-  
+
     text-align: right;
 }
+
 .nav a {
     padding-left: 45px;
-    padding-right:  45px;
+    padding-right: 45px;
     color: white;
     font-family: Lato;
     font-size: 16px;
@@ -70,9 +73,6 @@ h2 {
     text-transform: uppercase;
     display: inline-block;
 }
-.main {
-    margin-top: 181px;
-}
 
 .but {
     width: 140px;
@@ -107,6 +107,12 @@ h2 {
     height: 1050px;
 }
 
+.col a:hover {
+    opacity: 0.5;
+    background-color: #48bf72;
+    color: #48bf72;
+}
+
 .row1_img1 {
     padding-left: 25px;
     padding-top: 51px;
@@ -135,7 +141,8 @@ h2 {
 }
 
 .name {
-    padding-top: 54px;
+    padding-top: 84px;
+    margin-top: 0;
     margin-bottom: 0px;
     color: white;
     font-family: 'Lato';
@@ -177,6 +184,49 @@ h2 {
     text-transform: uppercase;
     display: inline-block;
 }
-form {
-   
+
+.contactinfo {
+    height: 567px;
+}
+
+footer {
+    height: 201px;
+}
+
+.footer p {
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    display: inline-block;
+}
+
+.footerlink {
+    padding-top: 66px;
+    padding-left: 16px;
+    display: inline-block
+}
+
+.footerlink a {
+
+    color: white;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    display: block;
+}
+
+.social {
+    margin-top: 38px;
+    margin-left: 444px;
+    text-align: right;
+    display: inline-block;
+}
+
+.social a {
+    padding-left: 20px;
+    padding-right: 16px;
+    display: inline-block;
 }
