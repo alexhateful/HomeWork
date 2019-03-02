@@ -21,12 +21,14 @@
                 <div class="logo">
                     <a> <img src="./img/foliac-logo1.png" alt="logo" class="imglogo"></a>
                 </div>
-                <div class="nav">
-                    <a href="#" class="Ac">Accueil</a>
-                    <a href="#" class="Po">Portfolio</a>
-                    <a href="#" class="Ab">About</a>
-                    <a href="#" class="Co">Contuct</a>
-                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Accueil</a></li>
+                        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="javascript:void(0)" class="nav__link">Contuct</a></li>
+                    </ul>
+                </nav>
                 <h1>voici votre prochain portfolio</h1>
                 <h2>un template psd simple et gratuit</h2>
                 <div class="but">
@@ -70,13 +72,40 @@
                 <a href="#" class="contact_button">ME CONTACTER</a>
             </div>
         </div>
-        <div class="container">
-            <div class="contactinfo">
-                <form method="GET">
-                    <input type="tel" name="Votre nom" title="text">
-                    <input type="email" name="Votre imail" id="imail"><br>
-                    <textarea name="Voter massage" cols="100" rows="5"></textarea>
-                </form>>
+        <div class="contactinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-6" style="    margin-left: calc(((100% / 12) * 2.5) - 15px);">
+                        <h2>Me contacter</h2>
+                        <form method="GET">
+                            <div class="row">
+                                <div class="col col-6">
+                                    <div class="form__control">
+                                        <div class="form__icon">
+                                            
+                                        </div>
+                                        <input class="form__input" type="tel" name="Votre nom" title="text">
+                                    </div>
+                                </div>
+                                <div class="col col-6">
+                                    <input type="email" name="Votre imail" id="imail"><br>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-12">
+                                    <textarea name="Voter massage"></textarea>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col col-12">
+                                    <input type="submit" value="Envoyer">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">

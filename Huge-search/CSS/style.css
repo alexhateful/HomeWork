@@ -13,9 +13,9 @@
 .search {
     margin-top: 80px;
     max-height: 100px;
-    width: 100%;
-    margin-left: 10%;    
-    display: inline-block;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
 }
 input {
     
@@ -93,4 +93,22 @@ button {
     background-color: white;
     max-height: 80px;
     width: 80px;
+}
+
+.form {
+    position: relative;
+    /* background-color: grey; */
+    padding-top: 50px;
+}
+.form label {
+    position: absolute;
+    font-size: 4em;
+    color: grey;
+    left: 0;
+    top: 50%;
+    pointer-events: none;
+    transition: .3s;
+}
+.form input:focus + label, .form input:valid + label {
+    top: 0;
 }
