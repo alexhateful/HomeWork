@@ -26,6 +26,7 @@ body {
     font-size: 57px;
     transition: all 0.5s ease;
 }
+
 a {
     text-decoration: none;
 }
@@ -64,12 +65,13 @@ a {
     transform: scale(1.2) rotate(360deg);
 }
 
-.drribble {transition: all 0.5s ease;
+.drribble {
+    transition: all 0.5s ease;
     border: 1px solid #FF0084;
     color: #FF0084;
     cursor: pointer;
     font-size: 57px;
-    
+
 }
 
 .drribble:hover {
@@ -119,6 +121,11 @@ h3 {
     height: 50px;
     outline: none;
     padding-left: 18px;
+}
+
+input:focus {
+    border: 1px solid #41C67A;
+    font-style: normal;
 }
 
 .box1 {
@@ -173,8 +180,9 @@ button {
     cursor: pointer;
     font-size: 30px;
     padding: 0;
-  
+
 }
+
 button:hover {
     opacity: 0.9;
 }
