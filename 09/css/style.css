@@ -26,6 +26,9 @@ body {
     font-size: 57px;
     transition: all 0.5s ease;
 }
+a {
+    text-decoration: none;
+}
 
 .facebook:hover {
     color: white;
