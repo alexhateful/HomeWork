@@ -1,0 +1,213 @@
+body {
+    /* background: url(../nike_product_card_dark.jpg) top no-repeat; */
+    background: url(../img/Group-3\ copy.jpg) no-repeat;
+    background-size: 100%;
+    object-fit: fill;
+    font-family: 'Museo Sans Cyrl 100';
+    font-weight: 100;
+    font-style: normal;
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+.wrapperShoes {
+    margin-top: 65px;
+    margin-left: 36px;
+    position: relative;
+}
+
+
+h1 {
+    color: #e1e1e1;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 75px;
+    margin-left: 44px;
+    margin-bottom: 4px;
+}
+
+h2 {
+    color: #e1e1e1;
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-left: 43px;
+}
+
+/* звезды */
+.stars {
+    margin-top: 15px;
+}
+
+.rating {
+    display: none;
+}
+
+.rating:checked ~ label i{
+    color: #f7bf16;
+}
+
+.stars {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #9da1a6;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 42px;
+    justify-content: flex-end;
+}
+
+.lb {
+    letter-spacing: 0.5px;
+}
+/* выпадающее меню, */
+select {
+    background: none;
+    width: 69px;
+    height: 32px;
+    outline: none;
+    background-color: #111a28;
+    border: 1px solid #B0B2B6;
+    color: #B0B2B6;
+    display: inline-block;
+}
+
+option {
+    background: none;
+}
+
+.Size {
+    margin-left: 46px;
+    margin-top: 25px;
+}
+
+.Qty {
+    margin-left: -3px;
+}
+
+/* кнопка */
+button {
+    width: 184px;
+    height: 40px;
+    border: 1px solid #B0B2B6;
+    background: none;
+    color: #B0B2B6;
+    margin-left: 45px;
+    margin-top: 28px;
+    outline: none;
+}
+
+button:hover {
+    background: #202835;
+}
+
+/* слайдер */
+.size {
+    font-size: 9px;
+    letter-spacing: 6px;
+    transition: all 0.3s ease;
+}
+
+.size:hover {
+    transform: scale(1.5);
+}
+
+.circle {
+    padding-top: 226px;
+    margin-left: 143px;
+    margin-bottom: 20px;
+}
+
+.bl {
+    color: #6C6F7B;
+}
+
+
+.wh {
+    color: #ffffff;
+}
+
+.re {
+    color: #ed3333;
+}
+
+.ber {
+    color: #29e3ea;
+}
+
+.slider {
+    display: none;
+}
+
+.slider:checked+label i {
+    transform: scale(1.5);
+}
+
+.lb1::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: url(../img/Nike-SB-Stefan-Janoski-Max.png);
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.slider:checked+.lb1::after {
+    width: 329px;
+    height: 159px;
+}
+
+
+.lb2::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: url(../img/11.png);
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.slider:checked+.lb2::after {
+    width: 329px;
+    height: 159px;
+}
+
+.lb3::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: url(../img//1.png);
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.slider:checked+.lb3::after {
+    width: 329px;
+    height: 159px;
+}
+
+.lb4::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background: url(../img//3.png);
+    position: absolute;
+    transition: all 0.5s ease;
+}
+
+.slider:checked+.lb4::after {
+    width: 329px;
+    height: 159px;
+}
