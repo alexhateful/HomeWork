@@ -44,6 +44,9 @@ h2 {
 .pointer {
     cursor: pointer;
 }
+.pointer:hover {
+    transform: scale(1.5)
+}
 
 .rating {
     display: none;
