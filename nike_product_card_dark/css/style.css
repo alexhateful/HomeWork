@@ -40,6 +40,7 @@ h2 {
 /* звезды */
 .stars {
     margin-top: 15px;
+    cursor: pointer;
 }
 
 .rating {
@@ -54,7 +55,6 @@ h2 {
     font-size: 12px;
     letter-spacing: 0.5px;
     color: #9da1a6;
-    cursor: pointer;
     display: flex;
     flex-direction: row-reverse;
     padding-left: 42px;
@@ -66,7 +66,7 @@ h2 {
 }
 /* выпадающее меню, */
 select {
-    background: none;
+    background-color: #111a28;
     width: 69px;
     height: 32px;
     outline: none;
@@ -74,6 +74,10 @@ select {
     border: 1px solid #B0B2B6;
     color: #B0B2B6;
     display: inline-block;
+    cursor: pointer;
+}
+select:hover {
+    background: #202835;
 }
 
 option {
@@ -94,11 +98,12 @@ button {
     width: 184px;
     height: 40px;
     border: 1px solid #B0B2B6;
-    background: none;
+    background-color: #111a28;
     color: #B0B2B6;
     margin-left: 45px;
     margin-top: 28px;
     outline: none;
+    cursor: pointer;
 }
 
 button:hover {
@@ -110,6 +115,7 @@ button:hover {
     font-size: 9px;
     letter-spacing: 6px;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .size:hover {
