@@ -4,7 +4,7 @@
 
 .container {
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .container-fluid {
@@ -14,8 +14,8 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 .row.no-gutters {
     margin-left: 0;
@@ -29,8 +29,8 @@
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .col-1 {
     max-width: calc((100% / 12) * 1);
