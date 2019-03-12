@@ -19,7 +19,6 @@ body {
     position: relative;
 }
 
-
 h1 {
     color: #e1e1e1;
     font-size: 24px;
@@ -41,9 +40,11 @@ h2 {
 .stars {
     margin-top: 15px;
 }
+
 .pointer {
     cursor: pointer;
 }
+
 .pointer:hover {
     transform: scale(1.5)
 }
@@ -81,6 +82,7 @@ select {
     display: inline-block;
     cursor: pointer;
 }
+
 select:hover {
     background: #202835;
 }
