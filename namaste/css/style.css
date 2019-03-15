@@ -1,0 +1,118 @@
+body {
+    /* background: url(../namaste_green.jpg) top no-repeat; */
+    /* background-size: 100%; */
+    object-fit: fill;
+}
+header {
+    margin-top: 133px
+}
+
+h1 {
+    margin-top: 27px;
+    color: #0ec8cb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4.8px;
+    word-spacing: -1px;
+}
+
+h2 {
+    margin-top: 39px;
+    color: #999;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+h3 {
+    padding-left: 23px;
+    font-family: 'Montserrat', sans-serif;
+    color: #898f99;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+    text-align: center;
+}
+
+.main__headline {
+    color: #1b1b1b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main__text {
+    color: #777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+
+
+
+.anchor {
+    margin-top: 55px;
+    font-size: 65px;
+    text-align: center;
+    color: black;
+    margin-bottom: 43px;
+}
+
+.brilliant {
+    margin-top: 57px;
+    margin-bottom: 29px;
+    font-size: 65px;
+    text-align: center;
+    color: black;
+}
+
+
+.glasses {
+    font-size: 49px;
+    margin-top: 64px;
+    margin-bottom: 52px;
+    text-align: center;
+    color: black;
+}
+
+.tv {
+    margin-top: 63px;
+    margin-bottom: 50px;
+    font-size: 52px;
+    text-align: center;
+    color: black;
+}
+main {
+    margin-top: 98px;
+    margin-bottom: 138px;
+    padding-bottom: 65px;
+    }
+
+.col-style {
+        background: #F7F7F7;
+        padding-bottom: 78px;
+        cursor: pointer;
+        transition: all .3s ease;
+    }
+.col-style:hover {
+    background: #00C9CC;
+}
+.col-style:hover p{
+    color: white;
+}
