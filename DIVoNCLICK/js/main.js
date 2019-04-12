@@ -1,4 +1,5 @@
 let text = document.getElementsByClassName('text');
+text = text[0].textContent;
 let textarea, button;
 
 function ceratButton() {
